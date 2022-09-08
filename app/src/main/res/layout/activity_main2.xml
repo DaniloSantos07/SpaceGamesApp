@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="900dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="1000dp"
+        android:background="#30050505"
+        android:backgroundTint="@color/light_gray">
+
+
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo66" />
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="20dp"
+            android:src="@drawable/ic_baseline_circle_notifications_24" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="20dp"
+            android:src="@drawable/ic_baseline_account_circle_24" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/cuponsdisponiveis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="CUPONS DISPONÍVEIS!"
+        android:textColor="@color/white"
+        android:fontFamily="@font/open_sans_condensed_bold"
+        android:textSize="30dp"
+        />
+    
+    
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="380dp"
+        android:src="@drawable/ic_baseline_card_giftcard_24"
+        />
+
+    <TextView
+        android:id="@+id/cuponsexclusivos"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/cuponsdisponiveis"
+        android:layout_marginTop="-4dp"
+        android:fontFamily="@font/open_sans_condensed_bold"
+        android:gravity="left"
+        android:padding="-21dp"
+        android:text="        Cupons Exclusivos"
+        android:textColor="@color/white"
+        android:textSize="27dp" />
+
+
+    <ImageView
+        android:id="@+id/straydesconto"
+        android:layout_width="265dp"
+        android:layout_height="290dp"
+        android:layout_below="@id/cuponsexclusivos"
+        android:layout_marginTop="-41dp"
+        android:padding="40dp"
+        android:src="@drawable/straydesconto" />
+
+    <TextView
+        android:id='@+id/textstray'
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/straydesconto"
+        android:layout_marginTop="-48dp"
+        android:fontFamily="@font/open_sans"
+        android:padding="0dp"
+        android:text="                     Stray (PC)"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id='@+id/preco1stray'
+        android:layout_width="275dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/textstray"
+        android:layout_marginTop="-5dp"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:text="R$ 44,00"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/obter"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/preco1stray"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/roboto_bold"
+        android:text="OBTER" />
+
+    <ImageView
+        android:id="@+id/arkdesconto"
+        android:layout_width="265dp"
+        android:layout_height="290dp"
+        android:layout_below="@id/cuponsexclusivos"
+        android:layout_toRightOf="@id/straydesconto"
+        android:layout_marginTop="-40dp"
+        android:padding="2dp"
+        android:src="@drawable/ark" />
+
+    <TextView
+        android:id='@+id/textark'
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/arkdesconto"
+        android:layout_marginTop="-48dp"
+        android:fontFamily="@font/open_sans"
+        android:padding="0dp"
+        android:text="                                                                    Ark (PC)"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id='@+id/precoark'
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/textark"
+        android:layout_marginTop="-5dp"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:text="                                                             R$ 26,00"
+        android:textColor="@color/white"
+        android:textSize="17dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/obter2"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/precoark"
+        android:layout_marginStart="305dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/black"
+        android:text="OBTER"
+        android:fontFamily="@font/roboto_bold"/>
+
+</RelativeLayout>
