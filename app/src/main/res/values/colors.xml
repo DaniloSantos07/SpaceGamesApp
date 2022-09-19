@@ -11,6 +11,7 @@
     <color name="light_gray">#363636</color>
     <color name="green_80">#7CFC00</color>
     <color name="greytext">#CFCFCF</color>
-    <color name="greenlogin">#008B45</color>
+    <color name="greenlogin">#0CAE13</color>
+    <color name="silver">#C0C0C0</color>
     <color name="newgrey">#696969</color>
 </resources>
