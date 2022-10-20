@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "877166299528",
+    "project_id": "loginapp-6db3c",
+    "storage_bucket": "loginapp-6db3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877166299528:android:ad10f40340da831c3e923d",
+        "android_client_info": {
+          "package_name": "com.example.spacegames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877166299528-57ajrplv3k4ogr274gq1ra5lsalc2chi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMA4Nsqt8wnNsQhBD4FpOHdODG5T1PFgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877166299528-57ajrplv3k4ogr274gq1ra5lsalc2chi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

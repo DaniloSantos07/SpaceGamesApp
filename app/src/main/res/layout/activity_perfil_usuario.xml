@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    android:orientation="vertical"
+    tools:context=".PerfilUsuario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/user"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="110dp"
+            android:src="@drawable/ic_baseline_account_circle_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="125dp"
+            android:fontFamily="@font/open_sans_condensed_bold"
+            android:text="Usuário"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/deslog"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:backgroundTint="@color/red"
+        android:fontFamily="@font/roboto_bold"
+        android:text="DESLOGAR" />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="170dp"
+        android:text="user@gmail.com"
+        android:textColor="@color/greytext"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textSize="23dp"
+        android:fontFamily="@font/open_sans_condensed_bold"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="25dp"
+        android:textColor="@color/white"
+
+        android:text="CONFIRA NOSSO CATÁLOGO"
+        />
+
+    <ImageView
+        android:id="@+id/catalogo"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="310dp"
+        android:src="@drawable/catalogo" />
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="900dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="590dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="1000dp"
+        android:background="#30050505"
+        android:backgroundTint="@color/black" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="605dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/ic_baseline_house_siding_24" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:src="@drawable/ic_baseline_card_giftcard_24"
+        android:layout_marginRight="310dp"
+        android:layout_marginTop="605dp"
+        />
+
+</RelativeLayout>

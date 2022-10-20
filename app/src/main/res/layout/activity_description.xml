@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    tools:context=".Description">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/open_sans_condensed_bold"
+                android:gravity="center"
+                android:text="Conheça os Games!"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="355dp"
+                android:layout_marginTop="-90dp"
+                android:padding="25dp"
+                android:src="@drawable/straycov" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="-75dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="STRAY"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-47dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Perdido, sozinho e separado da sua família, um gato de rua precisa desvendar um mistério ancestral para fugir de uma cibercidade esquecida e encontrar o caminho para casa."
+                android:textColor="@color/white"
+                android:textSize="17dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="355dp"
+                android:layout_marginTop="-40dp"
+                android:padding="25dp"
+                android:src="@drawable/ark2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="-75dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="ARK"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-47dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Como um homem ou mulher abandonado nu, congelando e morrendo de fome numa ilha misteriosa, você precisa caçar, colher, construir itens, cultivar e construir abrigos para sobreviver. Use habilidade e astúcia para matar, domar, criar e montar Dinossauros e criaturas primitivas vivendo em ARK."
+                android:textColor="@color/white"
+                android:textSize="17dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="355dp"
+                android:layout_marginTop="-47dp"
+                android:padding="25dp"
+                android:src="@drawable/backfor" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="-75dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="BACK 4 BLOOD"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-47dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Back 4 Blood é um emocionante jogo de tiro cooperativo em primeira pessoa com uma intensa narrativa cooperativa para até 4 jogadores, modo multiplayer competitivo como humano ou contagiado e jogabilidade frenética de ação constante."
+                android:textColor="@color/white"
+                android:textSize="17dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="355dp"
+                android:layout_marginTop="-47dp"
+                android:padding="25dp"
+                android:src="@drawable/farchora6" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="-75dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="FAR CRY 6"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-47dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Bem-vindo a Yara, um paraíso tropical que parou no tempo. Antón Castillo, o ditador de Yara, pretende resgatar a glória do seu país a qualquer custo, junto com seu filho, Diego, que é tão sanguinário quanto o pai. Seu governo opressor desencadeou uma revolução."
+                android:textColor="@color/white"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
