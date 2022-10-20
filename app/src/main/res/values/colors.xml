@@ -13,5 +13,6 @@
     <color name="greytext">#CFCFCF</color>
     <color name="greenlogin">#0CAE13</color>
     <color name="silver">#C0C0C0</color>
+    <color name="red">#B22222</color>
     <color name="newgrey">#696969</color>
 </resources>

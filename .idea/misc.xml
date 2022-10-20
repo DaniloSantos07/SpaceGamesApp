@@ -5,14 +5,24 @@
       <map>
         <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/drawable/background_splashscreen.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/drawable/ic_baseline_circle_notifications_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/drawable/ic_baseline_https_25.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/drawable/ic_baseline_person_30.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/font/open_sans.xml" value="0.18995356690586745" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/font/open_sans_bold.xml" value="0.14550509731232622" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/font/open_sans_condensed_bold.xml" value="0.18995356690586745" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/font/roboto.xml" value="0.1705282669138091" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/font/roboto_bold.xml" value="0.18995356690586745" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/font/roboto_medium.xml" value="0.18995356690586745" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/layout/activity_description.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/layout/activity_info_games.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/layout/activity_info_jogos.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/layout/activity_perfil_usuario.xml" value="0.22" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.21" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/layout/slider_item_container.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LoginApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.113" />

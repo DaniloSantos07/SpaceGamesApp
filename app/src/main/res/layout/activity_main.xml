@@ -7,7 +7,6 @@
     android:background="@drawable/background4"
     tools:context=".MainActivity">
 
-
     <ImageView
         android:id="@+id/logospace"
         android:layout_width="500dp"
@@ -18,7 +17,8 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="25dp"
         android:padding="27dp"
-        android:src="@drawable/logo99" />
+        android:src="@drawable/logo99"
+        />
 
     <TextView
         android:layout_width="500dp"
@@ -28,8 +28,6 @@
         android:text=" Entre com sua conta registrada do nosso Site!"
         android:textColor="@color/white"
         android:textSize="19dp"
-
-
         />
 
     <EditText
@@ -49,7 +47,8 @@
         android:padding="17dp"
         android:textSize="16dp"
         android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColorHint="@color/white"
+        />
 
     <EditText
         android:id="@+id/senha"
@@ -74,7 +73,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@id/loginbtn"
-        android:layout_width="wrap_content"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/senha"
         android:layout_centerHorizontal="true"
@@ -87,16 +86,28 @@
         android:text="LOGIN" />
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/loginbtn"
+        android:layout_marginLeft="258dp"
+        android:layout_marginBottom="-14dp"
+        android:text="Esqueceu Sua Senha?"
+        android:textColor="@color/greytext"
+        android:fontFamily="@font/open_sans"
+        android:textSize="14dp" />
+
+    <TextView
         android:id="@+id/seregistre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/loginbtn"
         android:gravity="center"
-        android:text="Ainda não tem uma conta? Se registre no nosso site"
+        android:text="Ainda não tem uma conta? Se Registre no nosso site"
         android:textColor="@color/silver"
         android:textSize="15dp"
         android:fontFamily="@font/open_sans"
-        android:layout_marginTop="30dp" />
+        android:layout_marginTop="30dp"
+        />
 
     <TextView
         android:layout_width="match_parent"
@@ -107,7 +118,7 @@
         android:gravity="center"
         android:text="Política de Privacidade"
         android:textColor="@color/white"
-        android:textSize="17dp" />
-
+        android:textSize="17dp"
+        />
 
 </RelativeLayout>
