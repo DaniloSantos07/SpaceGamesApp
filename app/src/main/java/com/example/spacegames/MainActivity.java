@@ -38,13 +38,35 @@ public class MainActivity extends AppCompatActivity {
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (usuario.getText().toString().equals("admin") && senha.getText().toString().equals("admin")) {
+                if (usuario.getText().toString().equals("Kayke") && senha.getText().toString().equals("123456")) {
                     Toast.makeText(MainActivity.this, "LOGIN FEITO COM SUCESSO", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(),MainActivity2.class);
+                    startActivity(intent);
                 } else
-                    Toast.makeText(MainActivity.this, "LOGIN FALHOU!", Toast.LENGTH_SHORT).show();
 
-                Intent intent = new Intent(getApplicationContext(),MainActivity2.class);
-                startActivity(intent);
+                if (usuario.getText().toString().equals("Danilo") && senha.getText().toString().equals("123456")) {
+                    Toast.makeText(MainActivity.this, "LOGIN FEITO COM SUCESSO", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(),MainActivity2.class);
+                    startActivity(intent);
+                } else
+
+                if (usuario.getText().toString().equals("Ezequiel") && senha.getText().toString().equals("123456")) {
+                    Toast.makeText(MainActivity.this, "LOGIN FEITO COM SUCESSO", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(),MainActivity2.class);
+                    startActivity(intent);
+                } else;
+
+                if (usuario.getText().toString().equals("Igor") && senha.getText().toString().equals("123456")) {
+                    Toast.makeText(MainActivity.this, "LOGIN FEITO COM SUCESSO", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(),MainActivity2.class);
+                    startActivity(intent);
+                } else;
+
+                if (usuario.getText().toString().equals("Rafael") && senha.getText().toString().equals("123456")) {
+                    Toast.makeText(MainActivity.this, "LOGIN FEITO COM SUCESSO", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(getApplicationContext(),MainActivity2.class);
+                    startActivity(intent);
+                } else;
             }
 
         });

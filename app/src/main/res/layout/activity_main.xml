@@ -45,10 +45,16 @@
         android:fontFamily="@font/open_sans"
         android:hint="Usuário"
         android:padding="17dp"
-        android:textSize="16dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        />
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="360dp"
+        android:src="@drawable/ic_baseline_remove_red_eye_24"/>
 
     <EditText
         android:id="@+id/senha"
@@ -84,6 +90,13 @@
         android:backgroundTint="@color/greenlogin"
         android:fontFamily="@font/roboto_bold"
         android:text="LOGIN" />
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginbtn"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:layout_width="match_parent"

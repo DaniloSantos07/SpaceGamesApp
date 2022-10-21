@@ -93,17 +93,18 @@
         />
 
     <ImageView
+        android:id="@+id/home"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_marginTop="600dp"
         android:src="@drawable/ic_baseline_house_siding_24" />
 
     <ImageView
+        android:id="@+id/desccupons"
         android:layout_width="match_parent"
         android:layout_height="33dp"
-        android:src="@drawable/ic_baseline_card_giftcard_24"
-        android:layout_marginRight="310dp"
         android:layout_marginTop="605dp"
-        />
+        android:layout_marginRight="310dp"
+        android:src="@drawable/ic_baseline_card_giftcard_24" />
 
 </RelativeLayout>
